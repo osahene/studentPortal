@@ -2,7 +2,7 @@
 <q-page class="q-pa-md">
     <q-card class="my-card bg-secondary text-white">
       <q-card-section>
-        <div class="text-h6">Welcome to GPA Buddy</div>
+        <div class="text-h6">Cumulative Weight Average Calculator</div>
       </q-card-section>
 
       <q-card-section>

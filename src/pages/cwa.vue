@@ -2,7 +2,7 @@
   <div id="app">
     <div class="background"><img src="../assets/background.svg"></div>
     <div class="content">
-      <h1>GPA Calculator</h1>
+      <h1>CWA Calculator</h1>
       <h2>Calculate your Semester GPA, Cummulative GPA and check how much you need next semester to cross that legendary GPA Mark</h2>
       <div class="main">
       <div class="selection">

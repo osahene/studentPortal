@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-green">
+  <div class="">
 
-    <div class="q-gutter-y-md bg-red" >
+    <div class="q-gutter-y-md q-ma-lg" >
   
         <q-tabs
           v-model="tab"

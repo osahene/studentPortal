@@ -1,5 +1,11 @@
 <template>
   <div class="q-pa-md">
+      <div class="q-ma-lg">
+        <div class="text-h6 text-capitalize">
+          Campus Filla
+        </div>
+      </div>
+      <q-separator spaced inset="item" /> 
     <!-- News begins -->
     <q-carousel
       v-model="slide"      
@@ -14,10 +20,10 @@
       @mouseleave="autoplay = true"
       navigation-icon="radio_button_unchecked"
       control-type="regular"
-      control-color="orange"
+      control-color="green"
       control-text-color="grey-8"
       height="300px"
-      class="bg-purple text-white rounded-borders"
+      class="bg-green text-white rounded-borders"
     >
       <q-carousel-slide name="style" class="q-pa-none">
         <q-scroll-area class="fit">
@@ -114,18 +120,29 @@
     <!-- news ends -->
    <!-- <q-separator inset="item-thumbnail" />
    <q-separator inset="item-thumbnail" /> -->
-
+  <div class="q-ma-lg">
+    <div class="text-h6 text-capitalize">
+      Scholarship
+    </div>
+  </div>
+            <q-separator spaced inset="item" />            
   <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card" flat bordered>
       <q-img
         src="https://cdn.quasar.dev/img/parallax2.jpg"
       />
 
-      <q-card-section>
-        <div class="text-overline text-orange-9">Overline</div>
-        <div class="text-h5 q-mt-sm q-mb-xs">Title</div>
+      <q-card-section >
+        <div class="text-overline text-orange-9">Undergraduate</div>
+        <div class="text-h5 q-mt-sm q-mb-xs">Advocates and Allies in Law Scholarship</div>
         <div class="text-caption text-grey">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <q-list>
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </q-list>
         </div>
       </q-card-section>
 
